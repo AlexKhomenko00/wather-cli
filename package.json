@@ -1,9 +1,12 @@
 {
 	"name": "weather-cli",
 	"version": "1.0.0",
+	"type": "module",
 	"description": "CLI for getting weather",
-	"main": "index.js",
-	"bin": "./index.js",
+	"main": "weather.js",
+	"bin": {
+		"weather": "weather.js"
+	},
 	"engines": {
 		"node": ">14"
 	},
@@ -15,6 +18,13 @@
 		"weather",
 		"cli"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AlexKhomenko00/wather-cli"
+	},
+	"bugs": {
+		"email": "sasvsha1@gmail.com"
+	},
 	"author": "Oleksandr Khomenko",
 	"license": "ISC",
 	"dependencies": {
