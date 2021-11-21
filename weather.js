@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import { getArgs } from "./helpers/args.js";
-
 import { printHelp, printSucces, printError } from "./services/log.service.js";
 import { saveKeyValue, TOKEN_DICTIONARY } from "./services/storage.service.js";
 import { getWeather } from "./services/api.service.js";
