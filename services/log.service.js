@@ -7,7 +7,7 @@ const printError = (error) => {
 	console.log(bgRed(" ERROR ") + " " + error);
 };
 
-const printSucces = (message) => {
+const printSuccess = (message) => {
 	console.log(bgGreen(" SUCCESS ") + " " + message);
 };
 
